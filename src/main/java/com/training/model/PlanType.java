@@ -1,4 +1,7 @@
 package com.training.model;
 
-public class PlanType {
+public enum PlanType {
+    PREPAID,
+    POSTPAID,
+    ADDON
 }
